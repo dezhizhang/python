@@ -1,30 +1,8 @@
-interface Animal{
-    eat():string;
+function getData<T>(value:T):T{
+    return value;
 }
 
-interface Person extends Animal{
-    work():string;
-}
-
-class Web implements Person{
-    name:string;
-    constructor(name:string){
-        this.name = name;
-    }
-    eat():string {
-        return this.name;
-    }
-    work():string {
-        return this.name;
-    }
-}
-
-let w = new Web('小花');
-console.log(w.work());
-
-
-
-
+console.log(getData<number>(123))
 
 
 
