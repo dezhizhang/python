@@ -1,10 +1,30 @@
 
-interface UserArr{
-    [index:number]:string;
+
+
+interface Animal{
+    name:string;
+    eat(str:string):void;
 }
 
-let arr:UserArr = ['aaa','bbb'];
-console.log(arr[0]);
+class Dog implements Animal{
+    name:string;
+    constructor(name:string) {
+        this.name = name;
+    }
+    eat(str:string) {
+        console.log(str);
+    }
+}
+
+let d = new Dog('小花');
+d.eat('呀呀');
+
+
+
+
+
+
+
 
 
 
