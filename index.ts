@@ -1,4 +1,5 @@
 
+
 interface Config{
     type:string;
     url:string;
@@ -12,22 +13,25 @@ function ajax(config:Config) {
     xhr.send(config.data);
     xhr.onreadystatechange = function() {
         if(xhr.readyState == 4 && xhr.status == 200) {
-           if(config.dataType == 'json') {
-               console.log(JSON.parse(xhr.responseText));
-           } else {
-               return xhr.responseText;
-           }
+            if(config.dataType == 'json') {
+                console.log(JSON.parse(xhr.responseText));
 
-        }
+            } else {
+                console.log(xhr.responseText);
+            }
+        } 
     }
 }
 
- let json = ajax({
+ajax({
     type:'get',
     url:'https://cnodejs.org/api/v1/topics',
     data:'1',
     dataType:'json'
-});
+})
+
+
+
 
 
 

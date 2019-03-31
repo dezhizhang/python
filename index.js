@@ -1,3 +1,9 @@
+// interface Config{
+//     type:string;
+//     url:string;
+//     data?:string;
+//     dataType:string;
+// }
 function ajax(config) {
     var xhr = new XMLHttpRequest();
     xhr.open(config.type, config.url, true);
@@ -8,12 +14,12 @@ function ajax(config) {
                 console.log(JSON.parse(xhr.responseText));
             }
             else {
-                return xhr.responseText;
+                console.log(xhr.responseText);
             }
         }
     };
 }
-var json = ajax({
+ajax({
     type: 'get',
     url: 'https://cnodejs.org/api/v1/topics',
     data: '1',
