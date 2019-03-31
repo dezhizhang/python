@@ -1,14 +1,19 @@
-
-
-class Person{
+abstract class Animale {
     public name:string;
     constructor(name:string) {
         this.name = name;
     }
-    run() {
-        alert(`${this.name}哈哈`)
+    abstract eat():any;
+}
+
+class Dog extends Animale{
+    constructor(name) {
+        super(name);
+    }
+    eat() {
+        return this.name + '哈哈';
     }
 }
 
-let p = new Person('小明');
-p.run();
+let d = new Dog('小王');
+alert(d.eat());
