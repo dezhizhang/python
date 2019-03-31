@@ -1,19 +1,60 @@
-abstract class Animale {
-    public name:string;
-    constructor(name:string) {
-        this.name = name;
-    }
-    abstract eat():any;
+
+
+// function printInfo(labelInfo:{label:string}):string {
+//     return labelInfo.label;
+// }
+
+// alert(printInfo({label:'123'}));
+
+// interface FullName{
+//     fistName:string;
+//     lastName:string;
+// }
+
+// function printName(name:FullName) {
+//     console.log(name.fistName + name.lastName);
+// }
+
+// printName({fistName:'123',lastName:'456'});
+
+// interface FullName{
+//     fistName:string;
+//     lastName:string;
+// }
+
+// function printName(name:FullName) {
+//     console.log(name.fistName + name.lastName);
+// }
+// printName({fistName:'周华建',lastName:'123'});
+
+// interface FullName{
+//     fistName:string;
+//     lastName:string;
+// }
+
+// function printName(name:FullName) {
+//     console.log(name.fistName + name.lastName);
+
+// }
+// printName({fistName:'呀呀',lastName:'呢哟'});
+
+interface FullName{
+    fistName?:string;
+    lastName:string;
 }
 
-class Dog extends Animale{
-    constructor(name) {
-        super(name);
-    }
-    eat() {
-        return this.name + '哈哈';
-    }
+function printName(name:FullName) {
+    console.log(name.fistName + name.lastName);
 }
 
-let d = new Dog('小王');
-alert(d.eat());
+printName({lastName:'123'});
+
+
+
+
+
+
+
+
+
+
