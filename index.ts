@@ -1,14 +1,13 @@
 
-
-interface encrypt{
-    (key:string,value:string):string;
+interface UserArr{
+    [index:number]:string;
 }
 
-let md5:encrypt = function(key:string,value:string):string{
-    return key+value;
-}
+let arr:UserArr = ['aaa','bbb'];
+console.log(arr[0]);
 
-console.log(md5('name','123'));
+
+
 
 
 

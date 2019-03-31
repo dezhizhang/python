@@ -1,4 +1,2 @@
-var md5 = function (key, value) {
-    return key + value;
-};
-console.log(md5('name', '123'));
+var arr = ['aaa', 'bbb'];
+console.log(arr[0]);
