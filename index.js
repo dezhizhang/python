@@ -1,7 +1,21 @@
-// function printInfo(labelInfo:{label:string}):string {
-//     return labelInfo.label;
-// }
-function printName(name) {
-    console.log(name.fistName + name.lastName);
+function ajax(config) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(config.type, config.url, true);
+    xhr.send(config.data);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            if (config.dataType == 'json') {
+                console.log(JSON.parse(xhr.responseText));
+            }
+            else {
+                return xhr.responseText;
+            }
+        }
+    };
 }
-printName({ lastName: '123' });
+var json = ajax({
+    type: 'get',
+    url: 'https://cnodejs.org/api/v1/topics',
+    data: '1',
+    dataType: 'json'
+});

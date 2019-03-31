@@ -1,53 +1,36 @@
 
-
-// function printInfo(labelInfo:{label:string}):string {
-//     return labelInfo.label;
-// }
-
-// alert(printInfo({label:'123'}));
-
-// interface FullName{
-//     fistName:string;
-//     lastName:string;
-// }
-
-// function printName(name:FullName) {
-//     console.log(name.fistName + name.lastName);
-// }
-
-// printName({fistName:'123',lastName:'456'});
-
-// interface FullName{
-//     fistName:string;
-//     lastName:string;
-// }
-
-// function printName(name:FullName) {
-//     console.log(name.fistName + name.lastName);
-// }
-// printName({fistName:'周华建',lastName:'123'});
-
-// interface FullName{
-//     fistName:string;
-//     lastName:string;
-// }
-
-// function printName(name:FullName) {
-//     console.log(name.fistName + name.lastName);
-
-// }
-// printName({fistName:'呀呀',lastName:'呢哟'});
-
-interface FullName{
-    fistName?:string;
-    lastName:string;
+interface Config{
+    type:string;
+    url:string;
+    data?:string;
+    dataType:string;
 }
 
-function printName(name:FullName) {
-    console.log(name.fistName + name.lastName);
+function ajax(config:Config) {
+    let xhr = new XMLHttpRequest();
+    xhr.open(config.type,config.url,true);
+    xhr.send(config.data);
+    xhr.onreadystatechange = function() {
+        if(xhr.readyState == 4 && xhr.status == 200) {
+           if(config.dataType == 'json') {
+               console.log(JSON.parse(xhr.responseText));
+           } else {
+               return xhr.responseText;
+           }
+
+        }
+    }
 }
 
-printName({lastName:'123'});
+ let json = ajax({
+    type:'get',
+    url:'https://cnodejs.org/api/v1/topics',
+    data:'1',
+    dataType:'json'
+});
+
+
+
 
 
 
