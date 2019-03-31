@@ -1,11 +1,14 @@
-var Dog = /** @class */ (function () {
-    function Dog(name) {
+var Web = /** @class */ (function () {
+    function Web(name) {
         this.name = name;
     }
-    Dog.prototype.eat = function (str) {
-        console.log(str);
+    Web.prototype.eat = function () {
+        return this.name;
     };
-    return Dog;
+    Web.prototype.work = function () {
+        return this.name;
+    };
+    return Web;
 }());
-var d = new Dog('小花');
-d.eat('呀呀');
+var w = new Web('小花');
+console.log(w.work());
