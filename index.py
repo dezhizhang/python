@@ -67,6 +67,8 @@
 #     hello world
 #     hello world
 # """);
+print('hello\nhello world\nhello world');
+
 
 
 
