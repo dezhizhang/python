@@ -35,11 +35,25 @@
 # print(hex(10));
 # print(hex(10));
 # print(hex(10));
+
 #任意进制转为八进制
 # print(oct(10));
 # print(oct(10));
 # print(oct(10));
 # print(oct(10));
+
+#布尔值
+# print(type(True));
+# print(type(False));
+# print(bool(1));
+# print(bool(0));
+# print(bool(10));
+
+
+
+
+
+
 
 
 
