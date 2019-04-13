@@ -55,7 +55,19 @@
 # print("hello world");
 # print('hello world');
 # print('zhangdezhi');
-print("hello world");
+# print("hello' world");
+# print('''hello world
+# hello world
+# hello world
+# hello world
+
+# ''');
+# print("""
+#     hello world
+#     hello world
+#     hello world
+# """);
+
 
 
 
