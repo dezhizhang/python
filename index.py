@@ -35,6 +35,15 @@
 # print(hex(10));
 # print(hex(10));
 # print(hex(10));
+#任意进制转为八进制
+# print(oct(10));
+# print(oct(10));
+# print(oct(10));
+# print(oct(10));
+
+
+
+
 
 
 
