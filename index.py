@@ -1,2 +1,1 @@
-print(type(100//2));
-
+print(0b11)
