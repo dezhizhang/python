@@ -49,6 +49,20 @@
 # print(bool(0));
 # print(bool(10));
 
+# print('hello world');
+# print([1,2,3]);
+#字符串
+# print("hello world");
+# print('hello world');
+# print('zhangdezhi');
+print("hello world");
+
+
+
+
+
+
+
 
 
 
