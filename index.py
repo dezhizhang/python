@@ -67,7 +67,30 @@
 #     hello world
 #     hello world
 # """);
-print('hello\nhello world\nhello world');
+# print('hello\nhello world\nhello world');
+# print('hello world\nhello world\nhello world');
+# print('hello\bhello world');
+
+#字符串的运算
+# print('hello' + ' world');
+# print('hello' * 3);
+# print('hello' * 3);
+# print('hello'[0]);
+# print('hello'[1]);
+# print('hello'[2]);
+# print('zhangdezhi'[-1]);
+# print('hello'[-2]);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
