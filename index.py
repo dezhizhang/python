@@ -82,7 +82,14 @@
 # print('hello'[-2]);
 
 #获取字符串
-print('hello world'[5:-1]);
+# print('hello world'[5:-1]);
+# print('hello world'[6:-0]);
+# print('hello world'[6:11]);
+# print('hello world'[6:11]);
+# print('hello world'[6:11]);
+
+
+
 
 
 
