@@ -87,6 +87,14 @@
 # print('hello world'[6:11]);
 # print('hello world'[6:11]);
 # print('hello world'[6:11]);
+# print('hello world'[1:-0]);
+# print('hello wolrd'[2:]);
+# print('hello world'[2:]);
+# print('hello world'[2:]);
+
+
+
+
 
 
 
