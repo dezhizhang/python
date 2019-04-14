@@ -90,7 +90,28 @@
 # print('hello world'[1:-0]);
 # print('hello wolrd'[2:]);
 # print('hello world'[2:]);
-# print('hello world'[2:]);
+
+#变量
+# message = [1,1,2,3,4];
+# print(message);
+# message = [1,2,3,4,5];
+# print(message);
+# message = [1,2,3,4];
+# print(message);
+# message = 'hello world';
+# print(message);
+# message = "hello world";
+# print(message);
+message = "hello world";
+print(message);
+
+
+
+
+
+
+
+
 
 
 
