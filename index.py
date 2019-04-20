@@ -164,15 +164,24 @@
 #     print('你说的是真');
 # else :
 #     print('你说的是假的');
-print('请输入密码');
-user_name = input();
-print(user_name);
+# print('请输入密码');
+# user_name = input();
+# print(user_name);
 
 
-if user_name == 123 :
-    print('密码正确');
-else :
-    print('密码错误了');
+# if user_name == 123 :
+#     print('密码正确');
+# else :
+#     print('密码错误了');
+
+
+# a = '123'
+# b = input()
+# if a == b:
+#     print('输入正确')
+# else:
+#     print('输入有误')
+
 
 
 
