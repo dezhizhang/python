@@ -122,14 +122,38 @@
 # for x in fruits:
 #     print(x);
 
-# arr = ['banana','apple','mango'];
-# for x in arr:
-#     print(x);
 
-arr = ['banana','apple','mango'];
-for x in arr:
-    print(x);
-    
+# mood = True;
+# if mood :
+#     print('我记好好');
+# mood = True;
+# if mood :
+#     print('我心情好');
+#     print('我心情不好');
+# mood = True;
+# if mood :
+#     print('我心情好');
+# mood = False;
+# if mood :
+#     print('我心好');
+# else :
+#     print('我心情不好');
+
+# mood = False;
+# if mood :
+#     print('我心情好');
+# else :
+#     print('我心情不好');
+
+# mood = False;
+# if mood :
+#     print('我心情好');
+# else :
+#     print('我心情不好');
+
+
+
+
 
 
 
