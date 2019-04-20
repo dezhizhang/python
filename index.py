@@ -117,6 +117,19 @@
 # print(a);
 # print('hello python');
 # print('hello python');
+#for循环
+# fruits = ['banana', 'apple',  'mango']
+# for x in fruits:
+#     print(x);
+
+# arr = ['banana','apple','mango'];
+# for x in arr:
+#     print(x);
+
+arr = ['banana','apple','mango'];
+for x in arr:
+    print(x);
+    
 
 
 
