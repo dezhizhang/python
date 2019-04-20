@@ -151,6 +151,32 @@
 # else :
 #     print('我心情不好');
 
+# a = 12;
+# b = 10;
+# if a < b :
+#     print('你说的是真');
+# else :
+#     print('你说的是假');
+
+# a = 12;
+# b = 10;
+# if a > b :
+#     print('你说的是真');
+# else :
+#     print('你说的是假的');
+print('请输入密码');
+user_name = input();
+print(user_name);
+
+
+if user_name == 123 :
+    print('密码正确');
+else :
+    print('密码错误了');
+
+
+
+
 
 
 
