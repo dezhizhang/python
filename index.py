@@ -259,6 +259,66 @@
 # else:
 #     print('3')
 
+# a = True
+# b = True
+# if a == True:
+#     print(a)
+# elif b == False:
+#     print(b)
+
+# num = 20
+# while num --:
+#     print(num)
+
+# num = 1
+# while num <= 10:
+#     num += 2
+#     print(num)
+
+# num = 1
+# while num <= 10:
+#     num += 1
+#     print(num)
+
+# num = 1
+# while num <= 10:
+#     num += 1
+#     print(num)
+
+# num = 1
+# while num < 10:
+#     num += 1
+#     print(num)
+
+# num = 1
+# while num < 10:
+#     num += 3
+#     print(num)
+
+# arr = [1,2,3,4,5]
+# for item in arr:
+#     print(item)
+
+# arr = ['red','yellow','pink']
+# for item in arr:
+#     print(item)
+
+# arr = ['red','yellow','pink']
+# for item in arr:
+#     print(item)
+
+arr = ['red','yellow','pink']
+for item in arr:
+    print(item)
+
+
+
+    
+
+
+
+
+
 
 
 
