@@ -182,6 +182,15 @@
 # else:
 #     print('输入有误')
 
+accent = '123'
+print('输入帐号')
+user_name = input()
+if accent == user_name:
+    print('输入正确')
+else:
+    print('输入错误')
+
+
 
 
 
