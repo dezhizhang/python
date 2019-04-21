@@ -307,9 +307,58 @@
 # for item in arr:
 #     print(item)
 
-arr = ['red','yellow','pink']
-for item in arr:
-    print(item)
+# arr = ['red','yellow','pink']
+# for item in arr:
+#     print(item)
+
+# arr = [1,2,3]
+# for item in arr:
+#     if item == 2:
+#         continue
+#     print(item)
+
+# arr = [1,2,3]
+# for item in arr:
+#     if item == 2:
+#         break
+#     print(item)
+
+# arr = [1,2,3]
+# for item in arr:
+#     if item == 2:
+#         break
+#     print(item)
+
+# arr = [1,2,3]
+# for item in arr:
+#     if item == 2:
+#         break
+#     print(item)
+
+# arr = [1,2,3,4]
+# for item in arr:
+#     if item == 3:
+#         continue
+#     print(item)
+
+# arr = [1,2,3,4]
+# for item in arr:
+#     if  item == 2:
+#         break
+#     print(item)
+
+# arr = [1,2,3,4]
+# for item in arr:
+#     if item == 2:
+#         continue
+#     print(item)
+
+
+
+
+
+
+
 
 
 
