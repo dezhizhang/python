@@ -353,6 +353,23 @@
 #         continue
 #     print(item)
 
+# for item in range(0,10):
+#     print(item)
+
+# for iter in range(0,10,2):
+#     print(iter)
+
+# for item in range(0,10,2):
+#     print(item)
+# for item in range(0,10,2):
+#     print(item)
+
+# for item in range(0,10,2):
+#     print(item)
+
+
+
+
 
 
 
