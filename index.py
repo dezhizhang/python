@@ -182,13 +182,78 @@
 # else:
 #     print('输入有误')
 
-accent = '123'
-print('输入帐号')
-user_name = input()
-if accent == user_name:
-    print('输入正确')
-else:
-    print('输入错误')
+# accent = '123'
+# print('输入帐号')
+# user_name = input()
+# if accent == user_name:
+#     print('输入正确')
+# else:
+#     print('输入错误')
+
+# print('hello python');
+# a = 1
+# if a:
+#     print('111')
+# else:
+#     print('2222')
+# if True:
+#     print('hello')
+
+# if True:
+#     print('hello zhangdezhi')
+
+# if condition:
+#     pass
+# else:
+#     pass
+
+# a = 1
+# if a ==1:
+#     print('你走吧')
+# else if a == 2:
+#     print('你完了')
+# else:
+#     print('3333')
+
+# a = input();
+# if a == '1':
+#     print('1')
+# elif a == '2':
+#     print('2')
+# elif a == '3':
+#     print('3')
+# else:
+#     print('4');
+
+# a = input()
+# if a == '1':
+#     print('1')
+# elif a == '2':
+#     print('2')
+# else:
+#     print('3')
+
+# a = input()
+# if a == '1':
+#     print('1')
+# elif a == '2':
+#     print('2')
+# else:
+#     print('你好')
+
+# a = input()
+# if a == '1':
+#     print('1')
+# elif a == '2':
+#     print('2')
+# else:
+#     print('你好')
+
+
+
+
+
+
 
 
 
