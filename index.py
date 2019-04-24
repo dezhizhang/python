@@ -1,22 +1,11 @@
-# import a
-# print(a.a)
 
-# import a
-# print(a.a)
 
-# import a
-# print(a.a)
+# b = 1.24235
+# result = round(b,2)
+# print(result)
 
-# import a
-# print (a.a)
-
-# import index.good
-# print(index.good.a)
-
-# import index.good
-# print(index.good.a)
-
-import good.good as m 
-print(m.a)
+# b = 1.4214
+# result = round(b)
+# print(result)
 
 
