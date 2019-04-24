@@ -1,5 +1,3 @@
-
-
 # b = 1.24235
 # result = round(b,2)
 # print(result)
@@ -30,6 +28,23 @@
 
 #     return args
 # print(change('hello python'))
+
+# print(chage(111))
+
+# def chage(args):
+#     return args
+
+# print(change(11111))
+
+# def change(args):
+#     return args
+
+# for  item in range(1,1000000):
+#     print(item)
+    
+
+
+
     
 
 
