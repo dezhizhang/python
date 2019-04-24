@@ -8,4 +8,26 @@
 # result = round(b)
 # print(result)
 
+# def chage(a,b):
+#     return a + b
+
+# print(chage(1,2))
+
+# def chage(a,b):
+#     return a + b
+# print(chage(10,20))
+
+# def chage(a,b):
+#     return a + b
+# print(chage(10,20))
+
+# def chage(a,b):
+#     return a + b
+# print(chage(1,2))
+
+
+
+
+    
+
 
