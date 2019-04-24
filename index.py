@@ -111,6 +111,28 @@
 # value = add()
 # print(value)
 
+# def deom(*param):
+#     return param
+
+# chage = deom(1,2,3)
+# print(chage)
+
+# def deom(*param):
+#     return param
+
+# change = deom(11,23,34)
+# print(change)
+
+def deom(*param):
+    return param
+
+result = deom(1,2,3,4)
+print(result)
+
+
+
+
+
 
 
 
