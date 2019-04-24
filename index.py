@@ -93,6 +93,25 @@
 # result = add(x = 20,y = 30)
 # print(result)
 
+# def add(x = 10,y = 20):
+#     return x + y
+
+# result = add()
+# print(result)
+
+# def add(x = 10,y = 20):
+#     return x + y
+
+# result = add()
+# print(result)
+
+# def add(x = 10,y = 20):
+#     return x + y
+
+# value = add()
+# print(value)
+
+
 
 
 
