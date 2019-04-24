@@ -41,6 +41,19 @@
 
 # for  item in range(1,1000000):
 #     print(item)
+
+def item1(args):
+    return args
+
+def item2(args):
+    return args
+
+def item():
+    return item1(10),item2(20)
+
+print(item())
+
+
     
 
 
