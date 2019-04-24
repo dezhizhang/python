@@ -72,9 +72,34 @@
 # a,b,c = 1,2,3
 # print(a)
 
-a = 1,2,3
-b,c,d = a
-print(d)
+# a = 1,2,3
+# b,c,d = a
+# print(d)
+
+# def add(x,y):
+#     return x + y
+
+# result = add(y = 10,x = 20)
+# print(result)
+
+# def add(x,y):
+#     return x + y
+# result = add(x = 10,y = 20)
+# print(result)
+
+# def add(x,y):
+#     return x + y
+
+# result = add(x = 20,y = 30)
+# print(result)
+
+
+
+
+
+
+
+
 
 
 
