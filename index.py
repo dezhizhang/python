@@ -1,167 +1,17 @@
-# b = 1.24235
-# result = round(b,2)
-# print(result)
 
-# b = 1.4214
-# result = round(b)
-# print(result)
+# c = 50
+# def deom(x,y):
+#     c = x + y
+#     print(c)
 
-# def chage(a,b):
-#     return a + b
-
-# print(chage(1,2))
-
-# def chage(a,b):
-#     return a + b
-# print(chage(10,20))
-
-# def chage(a,b):
-#     return a + b
-# print(chage(10,20))
-
-# def chage(a,b):
-#     return a + b
-# print(chage(1,2))
-
-
-# def change(args):
-
-#     return args
-# print(change('hello python'))
-
-# print(chage(111))
-
-# def chage(args):
-#     return args
-
-# print(change(11111))
-
-# def change(args):
-#     return args
-
-# for  item in range(1,1000000):
-#     print(item)
-
-# def item1(args):
-#     return args
-# def item2(args):
-#     return args
-# def item():
-#     return item1(10),item2(20)
-# print(item())
-
-# a,b,c = 1,2,3
-# print(b)
-
-# a,b,c = 1,2,3
+# deom(1,2)
 # print(c)
 
-# a,b,c = 1,2,3
-# print(a)
+# c = 50
+# def demo(x,y):
+#     c = x + y
+#     print(c)
 
-# a = 1,2,3
-# print(a)
-
-# a = 1,2,3
-# print(a)
-
-# a = 1,2,3
-# c ,d ,c = a
-# print(d)
-
-# a,b,c = 1,2,3
-# print(a)
-
-# a = 1,2,3
-# b,c,d = a
-# print(d)
-
-# def add(x,y):
-#     return x + y
-
-# result = add(y = 10,x = 20)
-# print(result)
-
-# def add(x,y):
-#     return x + y
-# result = add(x = 10,y = 20)
-# print(result)
-
-# def add(x,y):
-#     return x + y
-
-# result = add(x = 20,y = 30)
-# print(result)
-
-# def add(x = 10,y = 20):
-#     return x + y
-
-# result = add()
-# print(result)
-
-# def add(x = 10,y = 20):
-#     return x + y
-
-# result = add()
-# print(result)
-
-# def add(x = 10,y = 20):
-#     return x + y
-
-# value = add()
-# print(value)
-
-# def deom(*param):
-#     return param
-
-# chage = deom(1,2,3)
-# print(chage)
-
-# def deom(*param):
-#     return param
-
-# change = deom(11,23,34)
-# print(change)
-
-def deom(*param):
-    return param
-
-result = deom(1,2,3,4)
-print(result)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-
-
-    
-
+# demo(1,2)
+# print(c)
 
