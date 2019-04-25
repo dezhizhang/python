@@ -64,6 +64,41 @@
 #     print(a)
 # demo()
 
+# c = 1
+# def deom():
+#     # c = 2
+#     def dem1():
+#         # c = 3
+#         print(c)
+#     dem1()
+# deom()
+
+# print(global)
+# def demo():
+#     global c
+#     c = 2
+
+# demo()
+
+# print(c)
+
+# def demo():
+#     global c
+#     c = 2
+
+# demo()
+# print(c)
+
+def demo():
+    global c
+    c = 2
+
+demo()
+print(c)
+
+
+
+
 
 
 
