@@ -120,13 +120,46 @@
 # student = Student()
 # student.print_file()
 
-class Student():
-    name = 'zhangdezhi'
-    def print_file(self):
-        print(self.name)
+# class Student():
+#     name = 'zhangdezhi'
+#     def print_file(self):
+#         print(self.name)
 
-student = Student();
-student.print_file()
+# student = Student();
+# student.print_file()
+
+# class Student():
+#     name = 'zhangdezhi'
+#     def print_file(self):
+#         print(self.name)
+
+# student1 = Student()
+# student2 = Student()
+# student3 = Student()
+# print(id(student1))
+# print(id(student2))
+# print(id(student3))
+
+# class Student():
+#     name = 'zhangdezhi'
+#     def print_file(self):
+#         print(self.name)
+
+# student = Student()
+# print(id(student1))
+
+# class Student():
+#     name = 'hello worrld'
+#     def __init__(self):
+#         print(self.name)
+#     def print_file(self):
+#         print(self.name)
+
+
+# student = Student()
+# student.print_file()
+
+
 
 
 
