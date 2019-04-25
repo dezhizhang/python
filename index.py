@@ -252,15 +252,15 @@
 # student = Student(name = 'hello python',age = 20)
 # print(student.name)
 
-class Student():
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def print_file(self):
-        print(self.name)
+# class Student():
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def print_file(self):
+#         print(self.name)
     
-student = Student(name = 'hello python',age = 20)
-student.print_file()
+# student = Student(name = 'hello python',age = 20)
+# student.print_file()
 
 
 
