@@ -198,6 +198,42 @@
 # student.print_file()
 
 
+# class Student():
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def print_file(self):
+#         print(self.name)
+#         print(self.age)
+    
+# student = Student(name = 'hello',age = 12)
+# student.print_file()
+
+# class Student():
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def print_file(self):
+#         print(self.name)
+#         print(self.age)
+
+# student = Student(name = 'hello',age = 22)
+# print(student.name)
+
+# class Student():
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def print_file(self):
+#         print(self.age)
+      
+
+# student = Student(name = 'hello',age = 20)
+# print(student.name)
+
+
+
+
 
 
 
