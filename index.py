@@ -44,6 +44,29 @@
 
 # deom()
 
+# def demo():
+#     for item in range(1,10):
+#         a = 'a'
+
+#     print(a)
+# demo()
+
+# def demo():
+#     for item in range(1,10):
+#         a = item
+#     print(a)
+
+# demo()
+
+# def demo():
+#     for item in  range(1,10):
+#         a = 'item'
+#     print(a)
+# demo()
+
+
+
+
 
 
 
