@@ -159,7 +159,43 @@
 # student = Student()
 # student.print_file()
 
+# class Student():
+#     name = 'hello python'
+#     def __init__(self):
+#         print(self.name)
+#     def print_file(self):
+#         print(self.name)
+# student = Student()
+# student.print_file()
 
+# class Student():
+#     name = 'hello python'
+#     def __init__(self):
+#         print(self.name)
+#     def print_file(self):
+#         print(self.name)
+
+# student = Student()
+# student.print_file()
+
+# class Student():
+#     name = 'hello python'
+#     def __init__(self):
+#         print(self.name)
+#     def print_file(self):
+#         print(self.name)
+
+# student = Student()
+# student.print_file()
+
+# class Student():
+#     name = 'hello python'
+#     def __init__(self):
+#         print(self.name)
+#     def print_file(self):
+#         print(self.name)
+# student = Student()
+# student.print_file()
 
 
 
