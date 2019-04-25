@@ -89,12 +89,51 @@
 # demo()
 # print(c)
 
-def demo():
-    global c
-    c = 2
+# def demo():
+#     global c
+#     c = 2
 
-demo()
-print(c)
+# demo()
+# print(c)
+
+# class Student():
+#     c = 20
+#     def print_file(self):
+#         print(self.c)
+
+# student = Student()
+# student.print_file()
+
+# class Student():
+#     c = 20
+#     def print_file(self):
+#         print(self.c)
+
+# student = Student()
+# student.print_file()
+
+# class Student():
+#     name = 'zhangdezhi'
+#     def print_file(self):
+#         print(self.name)
+
+# student = Student()
+# student.print_file()
+
+class Student():
+    name = 'zhangdezhi'
+    def print_file(self):
+        print(self.name)
+
+student = Student();
+student.print_file()
+
+
+
+
+
+
+
 
 
 
