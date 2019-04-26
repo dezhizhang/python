@@ -426,6 +426,23 @@
 # b = re.findall('\d',a)
 # print(b)
 
+# import re
+# s = 'abc,acc,abd,aec,afc,ahc'
+# r = re.findall('a[cf]c',s)
+# print(r)
+
+# import re
+# s = 'abc,acc,abc,aec,afc,ahc'
+# r = re.findall('a[cf]c',s)
+# print(r)
+
+import re
+s = 'abc,acc,abc,aec,afc,ahc'
+r = re.findall('a[cf]c',s)
+print(r)
+
+
+
 
 
 
