@@ -278,6 +278,15 @@
 # student = Student()
 # student.add(2,4)
 
+# class Student():
+#     @staticmethod
+#     def add(x,y):
+#         return x + y
+
+# student = Student()
+# student.add(1,2)
+
+
 
 
 
