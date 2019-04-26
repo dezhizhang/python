@@ -267,9 +267,17 @@
 # for item in arr:
 #     print(item)
 
-for item in range(1,100):
-    print(item)
-    
+# for item in range(1,100):
+#     print(item)
+
+# class Student():
+#     @staticmethod
+#     def add(x,y):
+#         print('hello')
+
+# student = Student()
+# student.add(2,4)
+
 
 
 
