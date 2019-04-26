@@ -286,6 +286,31 @@
 # student = Student()
 # student.add(1,2)
 
+class Person():
+    def __init__(self,age,name):
+        self.age = age
+        self.name = name
+
+    def eat(self):
+        print(self.name + '在吃东西')
+
+
+class Student(Person):
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def add(self):
+        print(self.name)
+
+student = Student(name = '小明',age =22)
+student.eat()
+
+
+
+
+
+
 
 
 
