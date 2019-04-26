@@ -357,24 +357,63 @@
 # student = Student(name = 'zhangdezhi',age = 20)
 # student.eat()
 
-class Person():
-    def __init__(self,age,name):
-        self.name = name
-        self.age = age
+# class Person():
+#     def __init__(self,age,name):
+#         self.name = name
+#         self.age = age
 
-    def eat(self):
-        print(self.name)
+#     def eat(self):
+#         print(self.name)
 
-class Student(Person):
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+# class Student(Person):
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
 
-    def eat(self):
-        print(self.age)
+#     def eat(self):
+#         print(self.age)
 
-student = Student(name = 123,age = 22)
-student.eat()
+# student = Student(name = 123,age = 22)
+# student.eat()
+
+# arr = [{'name':'123','age':'456'}]
+# print(arr)
+# arr = [{'name':'123','age':'456'}]
+# print(arr)
+
+# import re
+# a = 'C|C++|java|C#|python|javascript'
+# b = re.findall('python',a)
+# print(b)
+
+# import re
+# a = 'C|C++|java|C#|python|javascript'
+# b = re.findall('python',a)
+# print(b)
+
+# import re
+# a = 'C|C++|java|C#|python|javascript'
+# b = re.findall('PHP',a)
+# print(b)
+
+# import re
+# a = 'C|C++|java|C#|python|javascript'
+# b = re.findall('python',a)
+# print(b)
+
+# import re
+# a = 'C|C++|java|C#|python|javascript'
+# b = re.findall('python',a)
+# print(b)
+
+
+
+
+
+
+
+
+
 
 
     
