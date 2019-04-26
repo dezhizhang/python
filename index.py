@@ -338,38 +338,46 @@
 # student = Student(name = 'hello',age = 20)
 # student.eat()
 
+# class Person():
+#     def __init__(self,age,name):
+#         self.name = name
+#         self.age = age
 
+#     def eat(self):
+#         print(self.name)
 
+# class Student(Person):
+#     def __init__(self,name,age):
+#         self.age = age
+#         self.name = name
+    
+#     def add(self):
+#         print(self.name)
 
+# student = Student(name = 'zhangdezhi',age = 20)
+# student.eat()
 
+class Person():
+    def __init__(self,age,name):
+        self.name = name
+        self.age = age
 
+    def eat(self):
+        print(self.name)
 
+class Student(Person):
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
 
+    def eat(self):
+        print(self.age)
 
-
+student = Student(name = 123,age = 22)
+student.eat()
 
 
     
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
