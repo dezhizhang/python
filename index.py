@@ -263,9 +263,13 @@
 # student.print_file()
 
 
-arr = [1,2,3,4,5]
-for item in arr:
+# arr = [1,2,3,4,5]
+# for item in arr:
+#     print(item)
+
+for item in range(1,100):
     print(item)
+    
 
 
 
