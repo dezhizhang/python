@@ -406,6 +406,33 @@
 # b = re.findall('python',a)
 # print(b)
 
+# import re
+# a  = 'sfldfffgfdd5661fdskf54211fdsfjf45323'
+# b = re.findall('\d',a)
+# print(b)
+
+# import re
+# a = 'sfldfffgfdd5661fdskf54211fdsfjf45323'
+# b = re.findall('\d',a)
+# print(b)
+
+# import re
+# a = 'sfldfffgfdd5661fdskf54211fdsfjf45323'
+# b = re.findall('\d',a)
+# print(b)
+
+# import re
+# a = 'sfldfffgfdd5661fdskf54211fdsfjf45323'
+# b = re.findall('\d',a)
+# print(b)
+
+
+
+
+
+
+
+
 
 
 
