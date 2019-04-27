@@ -99,6 +99,30 @@
 # r = map(square,list_x)
 # print(list(r))
 
+# i = 1
+# while(i < 100):
+#     i+=1
+#     print(i)
+
+# list_x = [1,2,3,4,5]
+# r = map(lambda x: x * x,list_x)
+# print(list(r))
+
+# list_x = [1,2,3,4]
+# r = map(lambda x:x * x,list_x)
+# print(list(r))
+
+# list_x = [1,2,3,4]
+# r = map(lambda x:x * x,list_x)
+# print(list(r))
+
+# list_x = [1,2,3,4]
+# r = map(lambda x: x * x,list_x)
+# print(list(r))
+
+# list_x = [1,2,3,4]
+# r = map(lambda x:x * x,list_x)
+# print(list(r))
 
 
 
