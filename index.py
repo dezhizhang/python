@@ -61,6 +61,46 @@
 # r = x if x > y else y 
 # print(r)
 
+# arr = []
+# list_x = [1,2,3,4]
+
+
+
+# for item in list_x:
+#     arr.append(square(item))
+
+# print(arr)
+
+# def square(x):
+#     return x * x
+
+# list_x = [1,2,3,4]
+# r = map(square,list_x)
+# print(list(r))
+
+# def square(x):
+#     return x * x
+
+# list_x = [1,2,3,4]
+# r = map(square,list_x)
+# print(list(r))
+
+# def square(x):
+#     return x * x
+
+# list_x = [1,2,3,4]
+# r = map(square,list_x)
+# print(list(r))
+
+# def square(x):
+#     return x * x
+
+# list_x = [1,2,3,4]
+# r = map(square,list_x)
+# print(list(r))
+
+
+
 
 
 
