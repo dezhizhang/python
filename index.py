@@ -154,6 +154,30 @@
 # r = reduce(lambda x,y:x + y,list_x,20)
 # print(r)
 
+# list_x = [1,0,1,0,1,0,1,0]
+# r = filter(lambda x:x,list_x)
+# print(list(r))
+
+# list_x = [1,0,1,0,1,0,1,0]
+# r = filter(lambda x:x,list_x)
+# print(list(r))
+
+# list_x = [1,0,1,0,1,0,1,0]
+# r = filter(lambda x:x,list_x)
+# print(list(r))
+
+# list_x = [1,0,1,0,1,0,1,0,1,0]
+# r = filter(lambda x:x,list_x)
+# print(list(r))
+
+# list_x = [1,0,1,0,1,0,1,0]
+# r = filter(lambda x:x,list_x)
+# print(list(r))
+
+
+
+
+
 
 
 
