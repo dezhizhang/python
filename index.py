@@ -525,6 +525,105 @@
 # student = json.loads(string)
 # print(student['age'])
 
+# import json
+# string = '{"name":"hello","age":12}'
+# student = json.loads(string)
+# print(student['name'])
+
+# import json
+# arr = [
+#         {'name':'hello'},
+#         {'age':10}
+#     ]
+
+# string = json.dumps(arr)
+# print(string)
+
+# import json
+# arr = [
+#     {'name':'hello'},
+#     {'age':18}
+# ]
+
+# string = json.dumps(arr)
+# print(string)
+
+# import json
+# arr = [
+#     {'name':'hello'},
+#     {'age':18}
+# ]
+# string = json.dumps(arr)
+# print(string)
+
+# import json
+# arr = [
+#     {'name':'hello'},
+#     {'age':18}
+# ]
+
+# string = json.dumps(arr)
+# print(string)
+
+# import json
+# arr = [
+#     {'nmae':'hello'},
+#     {'age':18}
+# ]
+# string = json.dumps(arr)
+# print(string)
+
+# from enum import Enum
+
+# class VIP(Enum):
+#     yello = 1
+#     green = 2
+#     red = 3
+#     black  = 4
+
+# print(VIP.black)
+# from enum import Enum
+# class VIP(Enum):
+#     yellow = 1
+#     green = 2
+#     red = 3
+#     black = 4
+
+# print(VIP.green)
+
+# from enum import Enum
+# class VIP(Enum):
+#     yellow = 1
+#     green = 2
+#     red = 3
+#     black = 4
+
+# print(VIP.red)
+
+# from enum import Enum
+# class VIP(Enum):
+#     yellow = 1
+#     green = 2
+#     red = 3
+#     black = 4
+
+# print(VIP.yellow)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
