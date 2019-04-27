@@ -124,6 +124,44 @@
 # r = map(lambda x:x * x,list_x)
 # print(list(r))
 
+# list_x = [1,2,3,4,5,6]
+# from functools import reduce
+# r = reduce(lambda x,y: x + y,list_x)
+# print(r)
+
+# from functools import reduce
+# list_x = [1,2,3,4,5,6]
+# r = reduce(lambda x,y:x + y,list_x)
+# print(r)
+
+# from functools import reduce
+# list_x = [1,2,3,4,5,6]
+# r = reduce(lambda x,y:x + y,list_x,10)
+# print(r)
+
+# from functools import reduce
+# list_x = [1,2,3,4,5,6]
+# r = reduce(lambda x,y: x - y,list_x,20)
+# print(r)
+
+# from functools import reduce
+# list_x = [1,2,3,4,5,6]
+# r = reduce(lambda x,y:x + y,list_x,10)
+# print(r)
+
+# from functools import reduce
+# list_x = [1,2,3,4,5,6]
+# r = reduce(lambda x,y:x + y,list_x,20)
+# print(r)
+
+
+
+
+
+
+
+
+
 
 
 
