@@ -461,6 +461,52 @@
 # r = re.findall('\w',a)
 # print(r)
 
+# import re
+# a = 'safklfdjf\nsdff\r'
+# r = re.findall('\s',a)
+# print(r)
+
+# import re
+# a = 'sdflkfg52432fdfkdnfjk'
+# r = re.findall('[a-z]',a)
+# print(r)
+
+# import re
+# a = 'dfskfg45310214sfhndf'
+# r = re.findall('[a-z]',a)
+# print(r)
+
+# import re
+# a = 'sdfikjrf5424fdsjrf'
+# r = re.findall('[a-z]',a)
+# print(r)
+
+# import re
+# a = 'sfoklfrfjk531sdfjknfd'
+# r = re.findall('[a-z]',a)
+# print(r)
+
+# import re
+# a = 'sfoklfrfjk531sdfjknfd'
+# r = re.findall('[a-z]{10}',a)
+# print(r)
+# import re
+# a = 'sfoklfrfjk531sdfjknfd'
+# r = re.findall('[a-z]{3}',a)
+# print(r)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
