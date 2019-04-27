@@ -436,31 +436,31 @@
 # r = re.findall('a[cf]c',s)
 # print(r)
 
-import re
-s = 'abc,acc,abc,aec,afc,ahc'
-r = re.findall('a[cf]c',s)
-print(r)
+# import re
+# s = 'abc,acc,abc,aec,afc,ahc'
+# r = re.findall('a[cf]c',s)
+# print(r)
 
 
+# import re
+# a = 'fsdgfjkfdvolkfmvckjnfvkcnffkvcn56741fvgjnmfvc6513'
+# r = re.findall('\d',a)
+# print(r)
 
+# import re
+# a = 'fdslkgfkf635463dfjkgft54'
+# r = re.findall('[0-9]',a)
 
+# import re
+# a = 'fdslkgfkf635463dfjkgft54'
+# r = re.findall('\w',a)
+# print(r)
 
+# import re
+# a = 'fdslkgfkf635463dfjkgft54'
+# r = re.findall('\w',a)
+# print(r)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
