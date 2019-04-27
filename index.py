@@ -495,6 +495,45 @@
 # r = re.findall('[a-z]{3}',a)
 # print(r)
 
+# arr = [{'name':'1234'}]
+# print(arr)
+
+# arr = [{'name':'age'}]
+# print(arr)
+
+# import json
+# arr = '{"name":"zhangdezhi","age":22}'
+# student = json.loads(arr)
+# print(student)
+
+# import json
+# string = '{"name":"zhangdezhi","age":123}'
+# student = json.loads(arr)
+
+# import json
+# string = '{"name":"hello","age":12}'
+# student = json.loads(string)
+# print(student['name'])
+
+# import json
+# string = '{"name":"hello","age":18}'
+# student = json.loads(string)
+# print(student['age'])
+
+# import json
+# string = '{"name":"hello","age":12}'
+# student = json.loads(string)
+# print(student['age'])
+
+
+
+
+
+
+
+
+
+
 
 
 
