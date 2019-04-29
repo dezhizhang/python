@@ -35,6 +35,25 @@
 #     print('info:{0}'.format(res.info()))
 #     print('code:{0}'.format(res.getcode()))
 
+from urllib import request
+from urllib import parse
+if __name__ == '__main__':
+    urls = 'http://www.baidu.com/s?'
+    wd = input('请输入关键字')
+    qs = {
+        'wd':wd
+    }
+    qs = parse.urlencode(qs)
+    fullurl = urls + qs
+    res = request.urlopen(fullurl)
+    html = res.read()
+    html = html.decode()
+    print(html)
+    
+
+
+
+
 
 
 
