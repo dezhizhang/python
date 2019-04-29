@@ -1,43 +1,12 @@
-# import pymongo
-# myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-# mydb = myclient["cms"]
-# mycol = mydb["hello"]
- 
-# mydict = { "name": "RUNOOB", "alexa": "10000", "url": "https://www.runoob.com" }
- 
-# x = mycol.insert_one(mydict) 
-# print(x)
+# for i in range(1, 10):
+#     for j in range(1, i+1):
+#         print('{}x{}={}\t'.format(j, i, i*j), end='')
+#     print()
 
-# import pymongo
-# myclient = pymongo.MongoClient('mongodb://localhost:27017')
-# mydb = myclient['cms']
-# mycol = mydb['zhangdezhi']
-# mydict = { "name": "RUNOOB", "alexa": "10000", "url": "https://www.runoob.com" }
-# x = mycol.insert_one(mydict)
-# print(x)
-
-# import pymongo
-# myclient = pymongo.MongoClient('mongodb://localhost:27017')
-# mydb = myclient['cms']
-# mycol = mydb['hello']
-# mydict =  { "name": "RUNOOB", "alexa": "10000", "url": "https://www.runoob.com" }
-# x = mycol.insert_one(mydict)
-# print(x)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print('{}x{}={}\t'.format(j,i,i*j),end='')
+#     print()
 
 
 
