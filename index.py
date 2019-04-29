@@ -27,6 +27,15 @@
 
 # print(html)
 
+# from urllib import request
+# if __name__ == '__main__':
+#     urls = 'http://dag.mca.gov.cn/'
+#     res = request.urlopen(urls)
+#     print('url:{0}'.format(res.geturl()))
+#     print('info:{0}'.format(res.info()))
+#     print('code:{0}'.format(res.getcode()))
+
+
 
 
 
