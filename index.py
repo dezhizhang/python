@@ -9,12 +9,25 @@
 
 # print(html)
 
-from urllib import request
-if __name__ == '__main__':
-    urls = 'http://dag.mca.gov.cn/'
-    res = request.urlopen(urls)
-    html = res.read()
-    html = html.decode()
-print(html)
+# from urllib import request
+# if __name__ == '__main__':
+#     urls = 'http://dag.mca.gov.cn/'
+#     res = request.urlopen(urls)
+#     html = res.read()
+#     html = html.decode()
+# print(html)
+
+# from urllib import request
+# if __name__ == '__main__':
+#     urls = 'http://dag.mca.gov.cn/'
+#     res = request.urlopen(urls)
+#     print(type(res))
+#     html = res.read()
+#     html = html.decode()
+
+# print(html)
+
+
+
 
 
