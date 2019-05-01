@@ -9,35 +9,11 @@
     </style>
 </head>
 <body>
-    <ul>
-        {% for item in colors reversed%}
-            <li>{{item}}</li>
-        {% endfor %}
-    </ul>
-    <ul>
-        {% for key,value in person.items%}
-        <li>{{key}}/{{value}}</li>
-        {% endfor%}
-    </ul>
-    <table>
-        <thead>
-            <th>序号</th>
-            <th>姓名</th>
-            <th>年龄</th>
-            <th>身高</th>
-        </thead>
-        <tbody>
-          
-                {% for item in books %}
-                <tr>
-                    <th>{{forloop.counter}}</th>
-                    <td>{{item.name}}</td>
-                    <th>{{item.age}}</th>
-                    <th>{{item.height}}</th>
-                </tr>
-                {% endfor %}
-           
-        </tbody>
-    </table>
+   <ul>
+       <li><a href="{% url 'index' %}">首页</a></li>
+       <li><a href="{% url 'book' %}">读书</a></li>
+       <li><a href="{% url 'movie' %}">电影</a></li>
+       <li><a href="{% url 'city' %}">同城</a></li>
+   </ul>
 </body>
 </html>

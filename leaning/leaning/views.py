@@ -1,30 +1,19 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
 def index(request):
-    # context = {
-    #     'colors':['red','yellow','pink','green'],
-    #     'person':{
-    #         'username':'zhangsan',
-    #         'age':18,
-    #         'height':180
-    #     }
     context = {
-       'books':[
-           {
-               'name':'张三',
-               'age':22,
-               'height':180
-           },
-           {
-               'name':'李四',
-               'age':18,
-               'height':160
-           },
-           {
-               'name':'王五',
-               'age':16,
-               'height':16
-           }
-       ] 
+
     }
     return render(request,'index.html',context = context)
+
+def book(request):
+    return HttpResponse('读书')
+
+def movie(request):
+    return HttpResponse('电影')
+
+def city(request):
+    return HttpResponse('同城')
+
+
