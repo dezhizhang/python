@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'person':['哈哈哈','嘿嘿','呀呀呢']
+        'pserson':['张三','李四','王五']
     }
     return render(request,'index.html',context = context)

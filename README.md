@@ -39,6 +39,28 @@ index_url = reverse('index:index')
     print(index_url)
     return HttpResponse('前台首页')
 ```
+模板变量
+1,在模板中使用变量,需要将变量放在'{{变量}}'中
+2,如果想要访问对象的属性，那么可以通过'对象属性名'来进行访问
+3,如果想要访问一个字典的key对应的value，那么只能通过'字典.key'的方式进行访问，不能通过'中括号[]'的形式进行访问
+4,因为在访问字典的'key'时候也是使用点'.'来进行访问，因此不能在字典中定义本身就有属性名当作'key',否则字典的那个属性将变成字典的key了
+5,如果想要访问列表或元组，那么也是通过'.'的方式进访问，不能过过'[]'进行访问，这一点和在python是不一样的,示例代码如下
+```
+context = {
+    'username':'zhangshang'
+}
+{{username}}
+```
+```
+ context = {
+        'pserson':['张三','李四','王五']
+    }
+    return render(request,'index.html',context = context)
+{{person.1}}
+```
+
+
+
 
 
 
