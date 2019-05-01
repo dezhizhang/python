@@ -58,7 +58,7 @@ context = {
     return render(request,'index.html',context = context)
 {{person.1}}
 ```
-模板if语句
+模板if语句  
 1,所有的标签都是在'{%%}'之间  
 2,if标签有闭合标签，就是'{%endif%}'  
 3,if标的判断运算符，就是跟python中的判断运算符一样的'==,!=,<=,>=,in mot is,is not'  
@@ -70,6 +70,8 @@ context = {
     <p>你以成年了</p>
 {% endif %}
 ```
+模板for语句
+
 
 
 
