@@ -17,5 +17,5 @@ def movie(request):
 
 def city(request):
     return HttpResponse('同城')
-
+   
 
