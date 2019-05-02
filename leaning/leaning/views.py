@@ -7,7 +7,8 @@ def greet():
 
 def index(request):
     context = {
-        'greet':greet
+        'value1':['red','yellow','pink'],
+        'value2':['zhangdezhi','kwg']
     }
     return render(request,'index.html',context = context)
 
