@@ -1,14 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from datetime import datetime
 
-
-def greet():
-    return 'hello world'
 
 def index(request):
     context = {
-        'value1':['red','yellow','pink'],
-        'value2':['zhangdezhi','kwg']
+      'today':datetime.now()
     }
     return render(request,'index.html',context = context)
 
