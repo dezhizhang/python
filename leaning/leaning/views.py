@@ -1,21 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from datetime import datetime
+from django.db import connection
 
 
 def index(request):
-    context = {
-      'today':datetime.now()
-    }
-    return render(request,'index.html',context = context)
+    cursor = connection.cursor()
+    cursor.execute("insert into user(id,name,age) values(null,'张三',22)")
+    return render(request,'index.html')
 
-def book(request):
-    return HttpResponse('读书')
 
-def movie(request):
-    return HttpResponse('电影')
 
-def city(request):
-    return HttpResponse('同城')
-   
 
