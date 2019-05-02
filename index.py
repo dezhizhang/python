@@ -1,10 +1,26 @@
 
 import requests
-url = 'https://movie.douban.com/'
-headers = {
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
-}
+from bs4 import BeautifulSoup
+import json
 
-response = requests.get(url,headers)
-print(response.text)
+
+def get_page():
+    url = 'https://movie.douban.com/'
+    headers = {
+        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    }
+    response = requests.get(url,headers)
+    return response.text
+
+def parse_page(text):
+    soup = BeautifulSoup(text,'lxml')
+    lists = soup.find_all('li',attrs={'data-title':'风中有朵雨做的云'})
+    for li in lists:
+        print(li)
+
+if __name__ == '__main__':
+    text = get_page()
+    parse_page(text)
+
+
 
