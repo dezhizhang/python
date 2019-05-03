@@ -12,12 +12,13 @@ def get_page():
     response = requests.get(url,headers)
     return response.text
 
-def parse_page(text):
-    soup = BeautifulSoup(text,'lxml')
-    lists = soup.find_all('li',attrs={'data-actors':'张优 / 宋词'})
+def  parse_page(text):
+    soup = BeautifulSoup('text','lxml')
+    lists = soup.find_all('li',attrs = {'data-actors':'张优 / 宋词'})
     for li in lists:
         actors = li['data-actors']
         print(actors)
+
 
 if __name__ == '__main__':
     text = get_page()

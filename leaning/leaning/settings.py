@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'leaning.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mongodb',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cms',
         'USER':'root',
         'PASSWORD':'701XTAY1993',
         'HOST':'127.0.0.1',
-        'PORT':'27017'
+        'PORT':'3306'
     }
 }
 
