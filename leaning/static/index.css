@@ -1,4 +1,20 @@
 body{
-    background: pink
-    
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+.nav{
+    height: 80px;
+    background: #f60;
+ 
+   
+}
+.nav ul{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+}
+.nav li{
+    float: left;
+    margin-left: 40px;
 }
