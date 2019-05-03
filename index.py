@@ -14,9 +14,10 @@ def get_page():
 
 def parse_page(text):
     soup = BeautifulSoup(text,'lxml')
-    lists = soup.find_all('li',attrs={'data-title':'风中有朵雨做的云'})
+    lists = soup.find_all('li',attrs={'data-actors':'张优 / 宋词'})
     for li in lists:
-        print(li)
+        actors = li['data-actors']
+        print(actors)
 
 if __name__ == '__main__':
     text = get_page()
