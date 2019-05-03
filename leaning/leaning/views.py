@@ -3,13 +3,15 @@ from django.http import HttpResponse
 from django.db import connection
 
 
-def get_corsor():
-    return connection.corsor()
+def get_cursor():
+    return connection.cursor()
 
 
 def index(request):
-    
-    return render(request,'index.html')
+    cursor = get_cursor()
+    cursor.execute('select id,name,author from book')
+    books = cursor.fetchall()
+    return render(request,'index.html',context={'books':books})
 
 
 def add_book(request):
