@@ -8,6 +8,7 @@ def get_corsor():
 
 
 def index(request):
+    
     return render(request,'index.html')
 
 
