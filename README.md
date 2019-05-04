@@ -150,6 +150,8 @@ def update(request):
     book.save()
     return HttpResponse('更新数据成功')
 ```
+###模型常用属性 
+
 
 
 

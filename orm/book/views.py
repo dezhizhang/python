@@ -2,27 +2,26 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Book
 
-# Create your views here.
+
 def index(request):
-    book = Book(name='web安全',author='吴大人',price=100)
+    book = Book(name = '学习笔记',author='张德志',price=10)
     book.save()
     return HttpResponse('图书添加成功')
 
 def search(request):
-    book = Book.objects.get(pk=1)
+    book = Book.objects.filter(name='学习笔记')
     print(book)
-    return HttpResponse('查询图书成功')
+    return HttpResponse('图书查找成功')
 
 def update(request):
-    book = Book.objects.get(pk=5)
-    book.price = 200
+    book = Book.objects.get(pk=6)
+    book.price = 100
     book.save()
-    return HttpResponse('更新数据成功')
-
+    return HttpResponse('图书更新成功')
 def delete(request):
-    book = Book.objects.filter(name='三国志')
+    book = Book.objects.filter(name='web安全')
     book.delete()
-    return HttpResponse('删除数据成功')
+    return HttpResponse('图书删除成功')
 
 
 
