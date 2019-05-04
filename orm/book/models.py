@@ -8,9 +8,4 @@ class Book(models.Model):
     price = models.FloatField(null=False,default=0.0)
 
 
-class Publisher(models.Model):
-    id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=100,null=True)
-    address = models.CharField(max_length=100,null=True)
-
 
