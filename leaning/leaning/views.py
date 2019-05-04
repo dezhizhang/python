@@ -28,6 +28,15 @@ def book_detail(request,book_id):
     book = cursor.fetchone()
     return render(request,'book_detail.html',context={'book':book})
 
+def delete_book(request):
+    if request.method == 'POST':
+        book_id = request.POST.get('book_id')
+        cursor = get_cursor()
+        cursor.execute("delete from book where id=%s" % book_id)
+        return redirect(reverse('index'))
+    else:
+        return HttpResponse('你的内容不符合条件')
+
 
 
 
