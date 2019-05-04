@@ -23,7 +23,10 @@ def add_book(request):
         return redirect(reverse('index'))
 
 def book_detail(request,book_id):
-    return render(request,'book_detail.html')
+    cursor = get_cursor()
+    cursor.execute("select id,name,author from book where id=%s" % book_id)
+    book = cursor.fetchone()
+    return render(request,'book_detail.html',context={'book':book})
 
 
 

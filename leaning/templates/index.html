@@ -13,7 +13,7 @@
         {% for item in books %}
             <tr>
                 <td>{{forloop.counter}}</td>
-                <td>{{item.1}}</td>
+                <td><a href="{% url 'book_detail' book_id=item.0 %}">{{item.1}}</a></td>
                 <td>{{item.2}}</td>
             </tr>
         {% endfor%}
