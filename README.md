@@ -111,6 +111,55 @@ python manage.py makemigrations
 ```
 python manage.py migrate
 ```
+###ORM添加数据   
+只要使用ORM模型创建一个对象，然后再调用这个ORM模型的save方法就可以保存了，示例代码如下
+```
+def index(request):
+    book = Book(name='web安全',author='吴大人',price=100)
+    book.save()
+    return HttpResponse('图书添加成功')
+```
+###ORM查找数据   
+1,根据主键进行查找，可以使用''objects.get'然后传递'pk=xxxx'示例代码如下  
+```
+def search(request):
+    book = Book.objects.get(pk=1)
+    print(book)
+    return HttpResponse('查询图书成功')
+```
+2,根据字段进行查找，可以使用'object.filter'方法进行查找，示例代码如下
+```
+def search(request):
+    book = Book.objects.filter(name='xxxxx')
+    print(book)
+    return HttpResponse('查询图书成功')
+```
+###ORM删除数据  
+1,首先找到对应的数据模型，然后再执行这个模型的'delete'方法进行删除，示例代码如下  
+```
+book = Book.objects.filter(name='三国志')
+    book.delete()
+    return HttpResponse('删除数据成功')
+```
+###ORM修改数据  
+1,首先找到对应的数据模型，然后修改数据模型，再执行'save'方法即可，示例代码如下 
+```
+def update(request):
+    book = Book.objects.get(pk=5)
+    book.price = 200
+    book.save()
+    return HttpResponse('更新数据成功')
+```
+
+
+
+
+
+
+
+
+
+
 
 
 

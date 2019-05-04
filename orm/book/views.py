@@ -9,7 +9,7 @@ def index(request):
     return HttpResponse('图书添加成功')
 
 def search(request):
-    book = Book.objects.filter(name='三国志')
+    book = Book.objects.get(pk=1)
     print(book)
     return HttpResponse('查询图书成功')
 
