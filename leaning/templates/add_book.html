@@ -1,9 +1,0 @@
-{% extends 'base.html'%}
-
-{% block content %}
- <form actions="http://localhost:8000/add_book/" method="POST">
-    书名:<input type="text" name="name"/><br/>
-    作者:<input type="text" name="author"/><br/>
-    <input type="submit" value="提交">
- </form>
-{% endblock%}
