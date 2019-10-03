@@ -18,7 +18,6 @@ def  parse_page(text):
         actors = li['data-actors']
         print(actors)
 
-
 if __name__ == '__main__':
     text = get_page()
     parse_page(text)
