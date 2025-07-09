@@ -38,11 +38,25 @@
 #     print("您已成年")
 # print("hello")
 
-age = int(input("请输入您的年龄"))
+# age = int(input("请输入您的年龄"))
+#
+# if age >= 18:
+#     print("您已成年")
+# print("hello world")
 
-if age >= 18:
-    print("您已成年")
-print("hello world")
+# age = int(input("请输入你的年龄"))
+# if age >=18:
+#     print("您已成年了")
+# else:
+#     print("未成年人")
+
+age = int(input("请输入你的年龄"))
+if age >=18:
+    print("您已成年了")
+else:
+    print("未成年")
+
+
 
 
 
