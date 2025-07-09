@@ -4,7 +4,12 @@
 #
 # print("我输入了:%s" % name)
 
-print('请输入数字类型')
+# print('请输入数字类型')
+#
+# num = input()
+# print('银行金额是',  int(num))
 
+print("请输入数字类型")
 num = input()
-print('银行金额是',  int(num))
+
+print("银行卡金额%2f" % int(num))
