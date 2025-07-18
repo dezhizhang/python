@@ -25,9 +25,74 @@
 # my_dict["tom"] = 88
 # print(my_dict)
 
-my_dict = {"tom":100}
-my_dict["tom"] = 88
-print(my_dict)
+# my_dict = {"tom":100}
+# my_dict["tom"] = 88
+# print(my_dict)
+
+# my_dict = {"tom":88,"jack":99}
+# my_dict.pop("tom")
+#
+# print(my_dict)
+
+# my_dict = {"tom":88,"jack":99}
+# my_dict.clear()
+# print(my_dict)
+
+# my_dict = {"tom":88,"jack":99}
+# my_dict.clear()
+# print(my_dict)
+
+# for key in keys:
+#     print("")
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# for key in keys:
+#     print(f"字典的key是：{key}")
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# for key in keys:
+#     print(f"字典的key是:{key}")
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# print(len(my_dict))
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# print(len(my_dict))
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# print(len(keys))
+
+# my_dict = {"tom":90,"jack":88}
+# keys = my_dict.keys()
+#
+# for key in keys:
+#     print(f"key的值为:{key}")
+
+my_dict = {"tom":90,"jack":88}
+keys = my_dict.keys()
+
+for key in keys:
+    print(f"key的值为:{key}")
+
+
+
+
+
+
+
+
+
+
 
 
 
